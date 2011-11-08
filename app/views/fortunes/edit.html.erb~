@@ -2,5 +2,5 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Pokaż', @fortune %> |
+<%= link_to 'Pokaz', @fortune %> |
 <%= link_to 'Wstecz', fortunes_path %>

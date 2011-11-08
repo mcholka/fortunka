@@ -13,16 +13,15 @@
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Klocek</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Fortunka">
+	<meta name="author" content="Michał Chołka">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="app/assets/stylesheet/style.css">
 
-	<script src="js/libs/modernizr-2.0.min.js"></script>
-	<script src="js/libs/respond.min.js"></script>
+	<script src="app/assets/javascripts/libs/modernizr-2.0.min.js"></script>
+	<script src="app/assets/javascripts/libs/respond.min.js"></script>
 </head>
 
 <body>
@@ -31,9 +30,9 @@
 <h5>
 	<% if current_user %>
   	Witaj <%= current_user.name %>!
-  	<%= link_to "Sign Out", signout_path %>
+  	<%= link_to "Wyloguj sie", signout_path %>
 	<% else %>
-  	<%= link_to "Sign in with Twitter", "/auth/twitter" %>
+  	<%= link_to "Zaloguj sie do Twitter", "/auth/twitter" %>
 	<% end %>
 </h5>
 			<h1 id="title">Fortunka</h1>

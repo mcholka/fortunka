@@ -221,7 +221,7 @@ body{
 }
 
 #header-container{
-	background-color:#669999;
+	background-image:url('tlo.gif');
 	height:130px;
 	border-bottom:20px solid black;
 	margin-bottom:50px;
@@ -234,6 +234,7 @@ h2, h3{margin:30px 0;}
 h2{font-size: 40px;}
 h3{font-size: 30px;}
 h5{
+color:#FFF8DC;
 font-size: 20px;
 float:right;
 }
@@ -241,7 +242,7 @@ float:right;
 
 #title{
 	font-size: 60px;
-	color:black;
+	color:#FFF8DC;
 	float:left;
 }
 
@@ -290,7 +291,7 @@ article header{
 }
 
 #footer-container{
-	background-color:#669999;
+	background-image:url('tlo.gif');
 	height:240px;
 	border-top:20px solid black;
 	margin-top:50px;
@@ -300,7 +301,7 @@ article header{
 }
 
 #footer-container footer{
-	color:gray;
+	color:#FFF8DC;
 }
 
 

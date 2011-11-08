@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Treść:</b>
+  <b>Tresc:</b>
   <%= @fortune.quotation %>
 </p>
 
 <p>
-  <b>Źródło</b>
+  <b>Zrodlo</b>
   <%= @fortune.source %>
 </p>
 

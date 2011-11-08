@@ -2,4 +2,4 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Wstecz', fortunes_path %>
+<%= link_to 'Back', fortunes_path %>

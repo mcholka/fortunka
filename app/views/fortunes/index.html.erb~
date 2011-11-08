@@ -1,9 +1,9 @@
-<h1>Dostępne Fortunki :)</h1>
+<h1>Dostepne Fortunki :)</h1>
 
 <table>
   <tr>
-    <th>Treść</th>
-    <th>Źródło</th>
+    <th>Tresc</th>
+    <th>Zlodlo</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,9 +13,9 @@
   <tr>
     <td><%= fortune.quotation %></td>
     <td><%= fortune.source %></td>
-    <td><%= link_to 'Pokaż', fortune %></td>
+    <td><%= link_to 'Pokaz', fortune %></td>
     <td><%= link_to 'Edytuj', edit_fortune_path(fortune) %></td>
-    <td><%= link_to 'Usuń', fortune, confirm: 'Czy napewno chcesz usunąć?', method: :delete %></td>
+    <td><%= link_to 'Usun', fortune, confirm: 'Czy napewno chcesz usunac?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
