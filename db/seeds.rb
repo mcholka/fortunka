@@ -5,8 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Fortune.create :quotation => 'I hear and I forget. I see and I remember. I do and I understand.'
-Fortune.create :quotation => 'Everything has its beauty but not everyone sees it.'
-Fortune.create :quotation => 'It does not matter how slowly you go so long as you do not stop.'
-Fortune.create :quotation => 'Study the past if you would define the future.'
 
+Fortune.create :quotation => 'Gdy cie maja wieszac, popros o szklanke wody. Nigdy nie wiadomo, co sie wydarzy, zanim przyniosa.'
+
+Fortune.create :quotation => 'O milosci wiemy niewiele. Z miloscia jest jak z gruszka. Gruszka jest slodka i ma ksztalt. Sprobuj zdefiniowac ksztalt gruszki.'
+
+Fortune.create :quotation => 'Nigdy nie ma sie drugiej okazji, zeby zrobic pierwsze wrazenie.'
+
+Fortune.create :quotation => 'Poglady sa jak dupa, kazdy jakies ma, ale po co od razu pokazywac...'
