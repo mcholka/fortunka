@@ -44,7 +44,8 @@ gem 'sass'
 gem 'coffee-script'
 gem 'execjs'
 gem 'therubyracer'
-gem 'omniauth', '0.3.2' 
+gem 'omniauth', '0.3.2'
+gem 'kaminari' 
 
 group :development do
 gem 'wirble'

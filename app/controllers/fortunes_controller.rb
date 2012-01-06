@@ -2,8 +2,8 @@ class FortunesController < ApplicationController
   # GET /fortunes
   # GET /fortunes.json
   def index
-    @fortunes = Fortune.all
-
+    #@fortunes = Fortune.all
+	@fortunes = Fortune.order(:source).page(params[:page]).per(5)
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @fortunes }

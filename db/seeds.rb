@@ -13,3 +13,6 @@ Fortune.create :quotation => 'O milosci wiemy niewiele. Z miloscia jest jak z gr
 Fortune.create :quotation => 'Nigdy nie ma sie drugiej okazji, zeby zrobic pierwsze wrazenie.'
 
 Fortune.create :quotation => 'Poglady sa jak dupa, kazdy jakies ma, ale po co od razu pokazywac...'
+
+Fortune.create :quotation => 'Czasem lepiej jest milczeć i udawać głupka, niż sie odezwać i rozwiać wszelkie wątpliowści'
+
